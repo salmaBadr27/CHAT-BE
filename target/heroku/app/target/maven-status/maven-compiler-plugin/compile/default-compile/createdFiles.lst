@@ -1,0 +1,12 @@
+com\mycompany\chatappbackend\App\Error.class
+com\mycompany\chatappbackend\Models\Message.class
+com\mycompany\chatappbackend\Utility\PGConnection.class
+com\mycompany\chatappbackend\DataBase\UserPostgresRepository.class
+com\mycompany\chatappbackend\Main.class
+com\mycompany\chatappbackend\App\DataBaseError.class
+com\mycompany\chatappbackend\DataBase\MessageRepository.class
+com\mycompany\chatappbackend\DataBase\UserRepository.class
+com\mycompany\chatappbackend\Models\User.class
+com\mycompany\chatappbackend\Utility\Authentication.class
+com\mycompany\chatappbackend\App\AuthenticationError.class
+com\mycompany\chatappbackend\DataBase\MessagesPostgresRepository.class

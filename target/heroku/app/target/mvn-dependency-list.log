@@ -1,0 +1,31 @@
+
+The following files have been resolved:
+   org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:compile
+   com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.8.v20171121:compile
+   org.slf4j:slf4j-simple:jar:1.7.21:compile
+   org.eclipse.persistence:javax.persistence:jar:2.1.0:compile
+   org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+   io.jsonwebtoken:jjwt:jar:0.9.0:compile
+   com.sparkjava:spark-core:jar:2.7.2:compile
+   org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile
+   org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:compile
+   org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile
+   com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+   org.eclipse.jetty.websocket:websocket-client:jar:9.4.8.v20171121:compile
+   org.eclipse.persistence:eclipselink:jar:2.5.2:compile
+   org.eclipse.persistence:commonj.sdo:jar:2.1.1:compile
+   commons-codec:commons-codec:jar:1.4:compile
+   org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121:compile
+   org.eclipse.jetty.websocket:websocket-common:jar:9.4.8.v20171121:compile
+   org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+   javax.servlet:javax.servlet-api:jar:3.1.0:compile
+   org.slf4j:slf4j-api:jar:1.7.13:compile
+   org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:compile
+   org.eclipse.jetty:jetty-client:jar:9.4.8.v20171121:compile
+   postgresql:postgresql:jar:9.1-901-1.jdbc4:compile
+   com.google.code.gson:gson:jar:2.2.4:compile
+   com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+   org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile
+   org.eclipse.jetty.websocket:websocket-api:jar:9.4.8.v20171121:compile
+
