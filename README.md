@@ -30,7 +30,7 @@ DELETE/message/username
 
 # User cases
 ## How to login and logout
-In order to send and receive chat messages for a specific user using the realtime server, a stream needs to be created. To login, use the login chat api endpoint with the user password as payload.If this done server-side with the server will respond with a json object like this 
+In order to send and receive chat messages for a specific user using the realtime server, a webSocet needs to be created. To login, use the login chat api endpoint with the user password as payload.If this done server-side with the server will respond with a json object like this 
 ```
 {
     "userId": "51da67eb-0e37-47b1-892a-2a85486f3ded",
