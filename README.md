@@ -3,7 +3,7 @@
 Representational state transfer (REST) has now become the standard for abstracting request/response type web services into an API. When it is combined with Server Sent Events (otherwise known as Event Source), the result is a fresh new way of proving two-way real-time communication between web clients and a server using synchronous requests/responses (IQ) with REST and asynchronous evening (Message, Presence) with SSE.
 
 # How to use
-he chat api can be used server-side from a web application with an openfire admin username/password on most HTTP requests. This is most useful when there is a middleware proxy web-server between Openfire and the web client like nodejs. This is also required when admin type requsts are made. Otherwise, the web client can use the credentials for the openfire user to perform excluse requests for that user only. For security, avoid exposing the master password/secret to the web client. Use basic HTTP authentication.
+the chat api can be used server-side from a web application with an openfire admin username/password on most HTTP requests. This is most useful when there is a middleware proxy web-server between Openfire and the web client like nodejs. This is also required when admin type requsts are made. Otherwise, the web client can use the credentials for the openfire user to perform excluse requests for that user only. For security, avoid exposing the master password/secret to the web client. Use basic HTTP authentication.
 
 # REST Endpoint Summary
 ## Add New User 
