@@ -97,7 +97,10 @@ public class UserPostgresRepository extends UserRepository {
 
         } catch (SQLException ex) {
             System.out.print(ex.getErrorCode() + ex.getMessage());
-            throw new DataBaseError(ex.getMessage());
+            String ErrorMsg = ex.getMessage();
+             ErrorMsg = ErrorMsg.replace("\"", "");
+             String validError = ErrorMsg.replace("\n","");
+            throw new DataBaseError(validError);
         }
 
     }

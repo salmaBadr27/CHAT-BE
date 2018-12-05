@@ -46,7 +46,6 @@ public class Authentication {
             }
 
         } catch (DataBaseError | AuthenticationError e) {
-            System.out.print("caught in auth " + e);
             throw e;
         }
     }
@@ -62,7 +61,6 @@ public class Authentication {
             User user = AuthenticateWithJson(ur, body);
             return user;
         } catch (AuthenticationError | DataBaseError | Exception e) {
-            System.out.print("caught in auth with token " + e);
             throw e;
         }
     }

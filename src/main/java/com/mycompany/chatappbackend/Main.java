@@ -59,7 +59,6 @@ public class Main {
                 User realUser = auth.AuthenticateWithJson(users, userinfo);
                 String token = auth.generateToken(userinfo);
                 res.header("token", token);
-                realUser.setToken(token);
                 return gson.toJson(realUser);
 
             } catch (AuthenticationError | DataBaseError ex) {
@@ -79,8 +78,8 @@ public class Main {
                 res.header("token", token);
                 newUser.setToken(token);
                 return gson.toJson(newUser);
-            } catch (DataBaseError e) {
-                return e;
+            } catch (DataBaseError ex) {
+                return ex;
             }
         });
 

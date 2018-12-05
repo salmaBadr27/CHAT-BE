@@ -21,7 +21,6 @@ public class PGConnection {
             }
 
         } catch (SQLException | ClassNotFoundException e) {
-            System.out.println("e :" + e);
             System.out.println("Not connected");
         }
     }
